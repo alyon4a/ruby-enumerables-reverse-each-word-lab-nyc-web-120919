@@ -1,4 +1,4 @@
 def reverse_each_word (sentence)
-  array = %w(sentence)
+  words = sentence.split("/\W+/")
   p array
 end
